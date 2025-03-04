@@ -21,3 +21,11 @@ export const userExists = async (uid = " ") => {
         throw new Error("No existe el usuario con el ID proporcionado")
     }
 }
+
+export const categoryExists = async (id) => {
+    const categoria = await Category.findById(id);
+    if (!categoria) {
+        throw new Error("No existe la categoría con el ID proporcionado");
+    }
+    return categoria; 
+};
