@@ -1,5 +1,6 @@
 import { categoryExists } from "../helpers/db-validators.js";
 import Category from "./category.model.js"
+import ProductosGestion from "../product/product.model.js";
 
 export const crearCategoriaPorDefecto = async () => {
     try {
@@ -89,22 +90,29 @@ export const editarCategoria = async (req, res) => {
 };
 
 
-
 export const eliminarCategoria = async (req, res) => {
     try {
-        
-/**
- * se necesita productos para probra esta funcion
-
         const { id } = req.params;
 
-        const categoria = await categoryExists(id);
+        const categoria = await Category.findById(id);
+        if (!categoria) {
+            return res.status(404).json({
+                success: false,
+                message: "Categoría no encontrada",
+            });
+        }
 
         const categoriaOtros = await crearCategoriaPorDefecto();
+        if (!categoriaOtros) {
+            return res.status(500).json({
+                success: false,
+                message: "No se pudo crear la categoría 'Otros'",
+            });
+        }
 
-        await Publications.updateMany(
-            { category: id },
-            { category: categoriaOtros._id }
+        const updatedProducts = await ProductosGestion.updateMany(
+            { categoria: id }, 
+            { categoria: categoriaOtros._id } 
         );
 
         categoria.status = false;
@@ -112,15 +120,15 @@ export const eliminarCategoria = async (req, res) => {
 
         return res.status(200).json({
             success: true,
-            message: "Categoría desactivada y publicaciones reasignadas a 'Otros'",
+            message: "Eliminado exitosamente la categoria",
             category: categoria,
         });
 
- */
     } catch (error) {
         return res.status(500).json({
             success: false,
-            message: error.message 
+            message: "Error al eliminar la categoría",
+            error: error.message
         });
     }
 };

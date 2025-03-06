@@ -7,10 +7,11 @@ import morgan from "morgan";
 import { dbConnection } from "./mongo.js";
 import authRoutes from "../src/auth/auth.routes.js";
 import userRoutes from "../src/user/user.routes.js";
+import categoryRoutes from "../src/category/category.routes.js";
+import productRoutes from "../src/product/product.routes.js";
 import apiLimiter from "../src/middlewares/rate-limit-validator.js";
 import { crearAdministrador } from "../src/user/user.controller.js";
-import categoryRoutes from "../src/category/category.routes.js"
-
+import {crearCategoriaPorDefecto} from "../src/category/category.controller.js"
 
 const middlewares = (app) => {
     app.use(express.urlencoded({ extended: false }));
@@ -25,13 +26,14 @@ const routes = (app) => {
     app.use("/empresaBimestral/v1/auth", authRoutes);
     app.use("/empresaBimestral/v1/user", userRoutes);
     app.use("/empresaBimestral/v1/category", categoryRoutes);
-
+    app.use("/empresaBimestral/v1/product",productRoutes);
 };
 
 const conectarDB = async () => {
     try {
         await dbConnection();
         await crearAdministrador();
+        await crearCategoriaPorDefecto();
     } catch (err) {
         console.log(`Database connection failed: ${err}`);
         process.exit(1);
