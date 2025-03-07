@@ -9,9 +9,13 @@ import authRoutes from "../src/auth/auth.routes.js";
 import userRoutes from "../src/user/user.routes.js";
 import categoryRoutes from "../src/category/category.routes.js";
 import productRoutes from "../src/product/product.routes.js";
+import cartRoutes from "../src/cart/cart.routes.js";
+import shoppingRoutes from "../src/shopping/shopping.routes.js";
 import apiLimiter from "../src/middlewares/rate-limit-validator.js";
 import { crearAdministrador } from "../src/user/user.controller.js";
 import {crearCategoriaPorDefecto} from "../src/category/category.controller.js"
+import { swaggerDocs, swaggerUi } from "./swagger.js";
+
 
 const middlewares = (app) => {
     app.use(express.urlencoded({ extended: false }));
@@ -27,6 +31,9 @@ const routes = (app) => {
     app.use("/empresaBimestral/v1/user", userRoutes);
     app.use("/empresaBimestral/v1/category", categoryRoutes);
     app.use("/empresaBimestral/v1/product",productRoutes);
+    app.use("/empresaBimestral/v1/cart", cartRoutes);
+    app.use("/empresaBimestral/v1/shopping",shoppingRoutes);
+    app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocs))
 };
 
 const conectarDB = async () => {

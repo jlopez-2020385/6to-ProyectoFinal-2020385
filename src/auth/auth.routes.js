@@ -7,7 +7,7 @@ const router = Router();
 
 /**
  * @swagger
- * /auth/register:
+ * /register:
  *   post:
  *     summary: Register a new user
  *     tags: [Auth]
@@ -20,39 +20,31 @@ const router = Router();
  *             properties:
  *               name:
  *                 type: string
- *                 description: "Name of the user"
  *               surname:
  *                 type: string
- *                 description: "Surname of the user"
  *               username:
  *                 type: string
- *                 description: "Username of the user"
  *               email:
  *                 type: string
- *                 description: "Email of the user"
  *               password:
  *                 type: string
- *                 description: "Password of the user"
  *               profilePicture:
  *                 type: string
  *                 format: binary
- *                 description: "Profile picture of the user"
  *               phone:
  *                 type: string
- *                 description: "Phone number of the user"
  *     responses:
  *       201:
- *         description: User registered successfully
+ *         description: User has been created
  *       400:
  *         description: Invalid input
  *       500:
- *         description: Server error
+ *         description: User registration failed
  */
-router.post("/register", uploadProfilePicture.single("profilePicture"), registerValidator, register);
 
 /**
  * @swagger
- * /auth/login:
+ * /login:
  *   post:
  *     summary: Login a user
  *     tags: [Auth]
@@ -63,18 +55,22 @@ router.post("/register", uploadProfilePicture.single("profilePicture"), register
  *           schema:
  *             type: object
  *             properties:
+ *               email:
+ *                 type: string
  *               username:
  *                 type: string
  *               password:
  *                 type: string
  *     responses:
  *       200:
- *         description: User logged in successfully
+ *         description: Login successful
  *       400:
- *         description: Invalid input
- *       401:
- *         description: Unauthorized
+ *         description: Invalid credentials
+ *       500:
+ *         description: Login failed, server error
  */
+router.post("/register", uploadProfilePicture.single("profilePicture"), registerValidator, register);
+
 router.post("/login", loginValidator, login);
 
 export default router;

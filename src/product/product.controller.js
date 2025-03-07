@@ -187,7 +187,7 @@ export const listarProductosEstado = async (req, res) => {
 
 export const ventasProduct = async (req, res) => {
     try {
-        const ventasProduct = await ProductosGestion.find().sort({ ventas: -1 }).limit(2);
+        const ventasProduct = await ProductosGestion.find({ status: true }).sort({ ventas: -1 }).limit(2); 
 
         if (!ventasProduct.length) {
             return res.status(404).json({
@@ -204,7 +204,7 @@ export const ventasProduct = async (req, res) => {
     } catch (err) {
         return res.status(500).json({
             success: false,
-            message: "Error al obtener el producto más vendido",
+            message: "Error al obtener los productos más vendidos",
             error: err.message
         });
     }
