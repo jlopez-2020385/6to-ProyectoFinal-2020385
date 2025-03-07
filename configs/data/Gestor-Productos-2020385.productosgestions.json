@@ -1,0 +1,105 @@
+[{
+  "_id": {
+    "$oid": "67c7aa67400e79c993959c5e"
+  },
+  "nombre": "Pulidora",
+  "descripcion": "Descripción del producto",
+  "precio": 120,
+  "categoria": {
+    "$oid": "67c7e3e86f7807e9a88f49c8"
+  },
+  "profilePicture": "url_actualizada",
+  "existencias": 39,
+  "ventas": 87,
+  "status": true,
+  "createdAt": {
+    "$date": "2025-03-05T01:35:35.655Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-07T16:33:55.783Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c7ac1be5c853776d58c8a0"
+  },
+  "nombre": "Taladro",
+  "descripcion": "Descripción del producto",
+  "precio": 100,
+  "categoria": {
+    "$oid": "67c7e3e86f7807e9a88f49c8"
+  },
+  "profilePicture": "url_de_imagen",
+  "existencias": 38,
+  "ventas": 12,
+  "status": true,
+  "createdAt": {
+    "$date": "2025-03-05T01:42:51.336Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-07T04:25:22.415Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c7c45dac608eec5cec8171"
+  },
+  "nombre": "Mesa de madera",
+  "descripcion": "4*4 metros 4 cillas",
+  "precio": 100,
+  "categoria": {
+    "$oid": "67c7c3ccac608eec5cec8163"
+  },
+  "profilePicture": "url_de_imagen",
+  "existencias": 50,
+  "ventas": 0,
+  "status": false,
+  "createdAt": {
+    "$date": "2025-03-05T03:26:21.577Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T06:00:41.423Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c7c495ac608eec5cec8177"
+  },
+  "nombre": "Capacitor de 4",
+  "descripcion": "tamaño 4cm de w",
+  "precio": 100,
+  "categoria": {
+    "$oid": "67c7c3d6ac608eec5cec8167"
+  },
+  "profilePicture": "url_de_imagen",
+  "existencias": 22,
+  "ventas": 50,
+  "status": true,
+  "createdAt": {
+    "$date": "2025-03-05T03:27:17.715Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T05:28:49.161Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ca34d891272b0b7b886655"
+  },
+  "nombre": "Tornillo",
+  "descripcion": "1/2 de madera",
+  "precio": 23.33,
+  "categoria": {
+    "$oid": "67c678480a2a16e3164ed165"
+  },
+  "profilePicture": "url_de_imagen",
+  "existencias": 322,
+  "ventas": 574,
+  "status": false,
+  "createdAt": {
+    "$date": "2025-03-06T23:50:48.281Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-07T04:34:54.072Z"
+  }
+}]

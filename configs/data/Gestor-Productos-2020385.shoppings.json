@@ -1,0 +1,1561 @@
+[{
+  "_id": {
+    "$oid": "67c9295a5b21e26a941e2fa4"
+  },
+  "usuarioId": {
+    "$oid": "67c7ac1be5c853776d58c8a0"
+  },
+  "productos": [
+    {
+      "productoId": {
+        "$oid": "67c7ac1be5c853776d58c8a0"
+      },
+      "cantidad": 2,
+      "precio": 100,
+      "_id": {
+        "$oid": "67c9295a5b21e26a941e2fa5"
+      }
+    },
+    {
+      "productoId": {
+        "$oid": "67c7ac1be5c853776d58c8a0"
+      },
+      "cantidad": 2,
+      "precio": 100,
+      "_id": {
+        "$oid": "67c9295a5b21e26a941e2fa6"
+      }
+    },
+    {
+      "productoId": {
+        "$oid": "67c7aa67400e79c993959c5e"
+      },
+      "cantidad": 2,
+      "precio": 120,
+      "_id": {
+        "$oid": "67c9295a5b21e26a941e2fa7"
+      }
+    },
+    {
+      "productoId": {
+        "$oid": "67c7aa67400e79c993959c5e"
+      },
+      "cantidad": 2,
+      "precio": 120,
+      "_id": {
+        "$oid": "67c9295a5b21e26a941e2fa8"
+      }
+    }
+  ],
+  "total": 880,
+  "createdAt": {
+    "$date": "2025-03-06T04:49:30.174Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-06T04:49:30.174Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67c9298a5b21e26a941e2fb3"
+  },
+  "usuarioId": {
+    "$oid": "67c7ac1be5c853776d58c8a0"
+  },
+  "productos": [
+    {
+      "productoId": {
+        "$oid": "67c7aa67400e79c993959c5e"
+      },
+      "cantidad": 2,
+      "precio": 120,
+      "_id": {
+        "$oid": "67c9298a5b21e26a941e2fb4"
+      }
+    }
+  ],
+  "total": 240,
+  "createdAt": {
+    "$date": "2025-03-06T04:50:18.950Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-06T04:50:18.950Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67c92a64820ace84784533d9"
+  },
+  "usuarioId": {
+    "$oid": "67c7ac1be5c853776d58c8a0"
+  },
+  "productos": [
+    {
+      "productoId": {
+        "$oid": "67c7aa67400e79c993959c5e"
+      },
+      "cantidad": 2,
+      "precio": 120,
+      "_id": {
+        "$oid": "67c92a64820ace84784533da"
+      }
+    }
+  ],
+  "total": 240,
+  "createdAt": {
+    "$date": "2025-03-06T04:53:56.131Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-06T04:53:56.131Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c92a76820ace84784533e5"
+  },
+  "usuarioId": {
+    "$oid": "67c7ac1be5c853776d58c8a0"
+  },
+  "productos": [
+    {
+      "productoId": {
+        "$oid": "67c7aa67400e79c993959c5e"
+      },
+      "cantidad": 1,
+      "precio": 120,
+      "_id": {
+        "$oid": "67c92a76820ace84784533e6"
+      }
+    }
+  ],
+  "total": 120,
+  "createdAt": {
+    "$date": "2025-03-06T04:54:14.426Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-06T04:54:14.426Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c92ba1820ace84784533f1"
+  },
+  "usuarioId": {
+    "$oid": "67c7ac1be5c853776d58c8a0"
+  },
+  "productos": [
+    {
+      "productoId": {
+        "$oid": "67c7aa67400e79c993959c5e"
+      },
+      "cantidad": 0,
+      "precio": 120,
+      "_id": {
+        "$oid": "67c92ba1820ace84784533f2"
+      }
+    }
+  ],
+  "total": 0,
+  "createdAt": {
+    "$date": "2025-03-06T04:59:13.387Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-06T04:59:13.387Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c92bc9820ace84784533ff"
+  },
+  "usuarioId": {
+    "$oid": "67c7ac1be5c853776d58c8a0"
+  },
+  "productos": [
+    {
+      "productoId": {
+        "$oid": "67c7aa67400e79c993959c5e"
+      },
+      "cantidad": 1,
+      "precio": 120,
+      "_id": {
+        "$oid": "67c92bc9820ace8478453400"
+      }
+    }
+  ],
+  "total": 120,
+  "createdAt": {
+    "$date": "2025-03-06T04:59:53.783Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-06T04:59:53.783Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c92c06820ace847845340b"
+  },
+  "usuarioId": {
+    "$oid": "67c7ac1be5c853776d58c8a0"
+  },
+  "productos": [
+    {
+      "productoId": {
+        "$oid": "67c7aa67400e79c993959c5e"
+      },
+      "cantidad": 45,
+      "precio": 120,
+      "_id": {
+        "$oid": "67c92c06820ace847845340c"
+      }
+    }
+  ],
+  "total": 5400,
+  "createdAt": {
+    "$date": "2025-03-06T05:00:54.615Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-06T05:00:54.615Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c92c26820ace8478453419"
+  },
+  "usuarioId": {
+    "$oid": "67c7ac1be5c853776d58c8a0"
+  },
+  "productos": [
+    {
+      "productoId": {
+        "$oid": "67c7aa67400e79c993959c5e"
+      },
+      "cantidad": 1,
+      "precio": 120,
+      "_id": {
+        "$oid": "67c92c26820ace847845341a"
+      }
+    }
+  ],
+  "total": 120,
+  "createdAt": {
+    "$date": "2025-03-06T05:01:26.601Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-06T05:01:26.601Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ca30f2291bc8ee6a57f8a6"
+  },
+  "usuarioId": {
+    "$oid": "67c7ac1be5c853776d58c8a0"
+  },
+  "productos": [
+    {
+      "productoId": {
+        "$oid": "67c7aa67400e79c993959c5e"
+      },
+      "cantidad": 1,
+      "precio": 120,
+      "_id": {
+        "$oid": "67ca30f2291bc8ee6a57f8a7"
+      }
+    }
+  ],
+  "total": 120,
+  "createdAt": {
+    "$date": "2025-03-06T23:34:10.970Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-06T23:34:10.970Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ca316bdad02593f6d5ee87"
+  },
+  "usuarioId": {
+    "$oid": "67c7ac1be5c853776d58c8a0"
+  },
+  "productos": [
+    {
+      "productoId": {
+        "$oid": "67c7aa67400e79c993959c5e"
+      },
+      "cantidad": 1,
+      "precio": 120,
+      "_id": {
+        "$oid": "67ca316bdad02593f6d5ee88"
+      }
+    },
+    {
+      "productoId": {
+        "$oid": "67c7aa67400e79c993959c5e"
+      },
+      "cantidad": 1,
+      "precio": 120,
+      "_id": {
+        "$oid": "67ca316bdad02593f6d5ee89"
+      }
+    },
+    {
+      "productoId": {
+        "$oid": "67c7aa67400e79c993959c5e"
+      },
+      "cantidad": 1,
+      "precio": 120,
+      "_id": {
+        "$oid": "67ca316bdad02593f6d5ee8a"
+      }
+    }
+  ],
+  "total": 360,
+  "createdAt": {
+    "$date": "2025-03-06T23:36:11.885Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-06T23:36:11.885Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ca37f1e5471ff5b3430a76"
+  },
+  "usuarioId": {
+    "$oid": "67c7ac1be5c853776d58c8a0"
+  },
+  "productos": [
+    {
+      "productoId": {
+        "$oid": "67c7aa67400e79c993959c5e"
+      },
+      "cantidad": 1,
+      "precio": 120,
+      "_id": {
+        "$oid": "67ca37f1e5471ff5b3430a77"
+      }
+    },
+    {
+      "productoId": {
+        "$oid": "67c7aa67400e79c993959c5e"
+      },
+      "cantidad": 1,
+      "precio": 120,
+      "_id": {
+        "$oid": "67ca37f1e5471ff5b3430a78"
+      }
+    },
+    {
+      "productoId": {
+        "$oid": "67ca34d891272b0b7b886655"
+      },
+      "cantidad": 1,
+      "precio": 23.33,
+      "_id": {
+        "$oid": "67ca37f1e5471ff5b3430a79"
+      }
+    },
+    {
+      "productoId": {
+        "$oid": "67ca34d891272b0b7b886655"
+      },
+      "cantidad": 1,
+      "precio": 23.33,
+      "_id": {
+        "$oid": "67ca37f1e5471ff5b3430a7a"
+      }
+    },
+    {
+      "productoId": {
+        "$oid": "67ca34d891272b0b7b886655"
+      },
+      "cantidad": 1,
+      "precio": 23.33,
+      "_id": {
+        "$oid": "67ca37f1e5471ff5b3430a7b"
+      }
+    },
+    {
+      "productoId": {
+        "$oid": "67ca34d891272b0b7b886655"
+      },
+      "cantidad": 1,
+      "precio": 23.33,
+      "_id": {
+        "$oid": "67ca37f1e5471ff5b3430a7c"
+      }
+    }
+  ],
+  "total": 333.31999999999994,
+  "createdAt": {
+    "$date": "2025-03-07T00:04:01.024Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-07T00:04:01.024Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ca3aafe847b372f7bf30ae"
+  },
+  "usuarioId": {
+    "$oid": "67c7ac1be5c853776d58c8a0"
+  },
+  "productos": [
+    {
+      "productoId": {
+        "$oid": "67ca34d891272b0b7b886655"
+      },
+      "cantidad": 1,
+      "precio": 23.33,
+      "_id": {
+        "$oid": "67ca3aafe847b372f7bf30af"
+      }
+    },
+    {
+      "productoId": {
+        "$oid": "67ca34d891272b0b7b886655"
+      },
+      "cantidad": 1,
+      "precio": 23.33,
+      "_id": {
+        "$oid": "67ca3aafe847b372f7bf30b0"
+      }
+    },
+    {
+      "productoId": {
+        "$oid": "67ca34d891272b0b7b886655"
+      },
+      "cantidad": 1,
+      "precio": 23.33,
+      "_id": {
+        "$oid": "67ca3aafe847b372f7bf30b1"
+      }
+    }
+  ],
+  "total": 69.99,
+  "createdAt": {
+    "$date": "2025-03-07T00:15:43.894Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-07T00:15:43.894Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ca3ba879f69f82c0f6c2fc"
+  },
+  "usuarioId": {
+    "$oid": "67c7ac1be5c853776d58c8a0"
+  },
+  "productos": [
+    {
+      "productoId": {
+        "$oid": "67ca34d891272b0b7b886655"
+      },
+      "cantidad": 1,
+      "precio": 23.33,
+      "_id": {
+        "$oid": "67ca3ba879f69f82c0f6c2fd"
+      }
+    },
+    {
+      "productoId": {
+        "$oid": "67ca34d891272b0b7b886655"
+      },
+      "cantidad": 1,
+      "precio": 23.33,
+      "_id": {
+        "$oid": "67ca3ba879f69f82c0f6c2fe"
+      }
+    },
+    {
+      "productoId": {
+        "$oid": "67ca34d891272b0b7b886655"
+      },
+      "cantidad": 1,
+      "precio": 23.33,
+      "_id": {
+        "$oid": "67ca3ba879f69f82c0f6c2ff"
+      }
+    }
+  ],
+  "total": 69.99,
+  "createdAt": {
+    "$date": "2025-03-07T00:19:52.455Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-07T00:19:52.455Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ca3cb2fefc6afcf4b3f377"
+  },
+  "usuarioId": {
+    "$oid": "67c7ac1be5c853776d58c8a0"
+  },
+  "productos": [
+    {
+      "productoId": {
+        "$oid": "67ca34d891272b0b7b886655"
+      },
+      "cantidad": 1,
+      "precio": 23.33,
+      "_id": {
+        "$oid": "67ca3cb2fefc6afcf4b3f378"
+      }
+    },
+    {
+      "productoId": {
+        "$oid": "67ca34d891272b0b7b886655"
+      },
+      "cantidad": 1,
+      "precio": 23.33,
+      "_id": {
+        "$oid": "67ca3cb2fefc6afcf4b3f379"
+      }
+    },
+    {
+      "productoId": {
+        "$oid": "67ca34d891272b0b7b886655"
+      },
+      "cantidad": 1,
+      "precio": 23.33,
+      "_id": {
+        "$oid": "67ca3cb2fefc6afcf4b3f37a"
+      }
+    }
+  ],
+  "total": 69.99,
+  "createdAt": {
+    "$date": "2025-03-07T00:24:18.045Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-07T00:24:18.045Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ca3cf10fac7f21d6137875"
+  },
+  "usuarioId": {
+    "$oid": "67c7ac1be5c853776d58c8a0"
+  },
+  "productos": [
+    {
+      "productoId": {
+        "$oid": "67ca34d891272b0b7b886655"
+      },
+      "cantidad": 1,
+      "precio": 23.33,
+      "_id": {
+        "$oid": "67ca3cf10fac7f21d6137876"
+      }
+    },
+    {
+      "productoId": {
+        "$oid": "67ca34d891272b0b7b886655"
+      },
+      "cantidad": 1,
+      "precio": 23.33,
+      "_id": {
+        "$oid": "67ca3cf10fac7f21d6137877"
+      }
+    }
+  ],
+  "total": 46.66,
+  "createdAt": {
+    "$date": "2025-03-07T00:25:21.536Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-07T00:25:21.536Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ca3d90742f9d9a32518e4f"
+  },
+  "usuarioId": {
+    "$oid": "67c7ac1be5c853776d58c8a0"
+  },
+  "productos": [
+    {
+      "productoId": {
+        "$oid": "67ca34d891272b0b7b886655"
+      },
+      "cantidad": 1,
+      "precio": 23.33,
+      "_id": {
+        "$oid": "67ca3d90742f9d9a32518e50"
+      }
+    },
+    {
+      "productoId": {
+        "$oid": "67ca34d891272b0b7b886655"
+      },
+      "cantidad": 1,
+      "precio": 23.33,
+      "_id": {
+        "$oid": "67ca3d90742f9d9a32518e51"
+      }
+    },
+    {
+      "productoId": {
+        "$oid": "67ca34d891272b0b7b886655"
+      },
+      "cantidad": 1,
+      "precio": 23.33,
+      "_id": {
+        "$oid": "67ca3d90742f9d9a32518e52"
+      }
+    }
+  ],
+  "total": 69.99,
+  "createdAt": {
+    "$date": "2025-03-07T00:28:00.640Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-07T00:28:00.640Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ca3dff8a7061952ba4e021"
+  },
+  "usuarioId": {
+    "$oid": "67c7ac1be5c853776d58c8a0"
+  },
+  "productos": [
+    {
+      "productoId": {
+        "$oid": "67ca34d891272b0b7b886655"
+      },
+      "cantidad": 1,
+      "precio": 23.33,
+      "_id": {
+        "$oid": "67ca3dff8a7061952ba4e022"
+      }
+    }
+  ],
+  "total": 23.33,
+  "createdAt": {
+    "$date": "2025-03-07T00:29:51.589Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-07T00:29:51.589Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ca3e098a7061952ba4e035"
+  },
+  "usuarioId": {
+    "$oid": "67c7ac1be5c853776d58c8a0"
+  },
+  "productos": [
+    {
+      "productoId": {
+        "$oid": "67ca34d891272b0b7b886655"
+      },
+      "cantidad": 1,
+      "precio": 23.33,
+      "_id": {
+        "$oid": "67ca3e098a7061952ba4e036"
+      }
+    },
+    {
+      "productoId": {
+        "$oid": "67ca34d891272b0b7b886655"
+      },
+      "cantidad": 1,
+      "precio": 23.33,
+      "_id": {
+        "$oid": "67ca3e098a7061952ba4e037"
+      }
+    }
+  ],
+  "total": 46.66,
+  "createdAt": {
+    "$date": "2025-03-07T00:30:01.555Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-07T00:30:01.555Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ca3e58c5f9c9c32ad8d7ac"
+  },
+  "usuarioId": {
+    "$oid": "67c7ac1be5c853776d58c8a0"
+  },
+  "productos": [
+    {
+      "productoId": {
+        "$oid": "67ca34d891272b0b7b886655"
+      },
+      "cantidad": 1,
+      "precio": 23.33,
+      "_id": {
+        "$oid": "67ca3e58c5f9c9c32ad8d7ad"
+      }
+    }
+  ],
+  "total": 23.33,
+  "createdAt": {
+    "$date": "2025-03-07T00:31:20.268Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-07T00:31:20.268Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ca3e7c44827ba411d60cec"
+  },
+  "usuarioId": {
+    "$oid": "67c7ac1be5c853776d58c8a0"
+  },
+  "productos": [
+    {
+      "productoId": {
+        "$oid": "67ca34d891272b0b7b886655"
+      },
+      "cantidad": 1,
+      "precio": 23.33,
+      "_id": {
+        "$oid": "67ca3e7c44827ba411d60ced"
+      }
+    }
+  ],
+  "total": 23.33,
+  "createdAt": {
+    "$date": "2025-03-07T00:31:56.281Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-07T00:31:56.281Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ca3e9abe2b94e39f4003f3"
+  },
+  "usuarioId": {
+    "$oid": "67c7ac1be5c853776d58c8a0"
+  },
+  "productos": [
+    {
+      "productoId": {
+        "$oid": "67ca34d891272b0b7b886655"
+      },
+      "cantidad": 1,
+      "precio": 23.33,
+      "_id": {
+        "$oid": "67ca3e9abe2b94e39f4003f4"
+      }
+    }
+  ],
+  "total": 23.33,
+  "createdAt": {
+    "$date": "2025-03-07T00:32:26.206Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-07T00:32:26.206Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ca3f2066e1af534006f9e4"
+  },
+  "usuarioId": {
+    "$oid": "67c7ac1be5c853776d58c8a0"
+  },
+  "productos": [
+    {
+      "productoId": {
+        "$oid": "67ca34d891272b0b7b886655"
+      },
+      "cantidad": 1,
+      "precio": 23.33,
+      "_id": {
+        "$oid": "67ca3f2066e1af534006f9e5"
+      }
+    }
+  ],
+  "total": 23.33,
+  "createdAt": {
+    "$date": "2025-03-07T00:34:40.490Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-07T00:34:40.490Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ca3f63af7ade01e7aca158"
+  },
+  "usuarioId": {
+    "$oid": "67c7ac1be5c853776d58c8a0"
+  },
+  "productos": [
+    {
+      "productoId": {
+        "$oid": "67ca34d891272b0b7b886655"
+      },
+      "cantidad": 1,
+      "precio": 23.33,
+      "_id": {
+        "$oid": "67ca3f63af7ade01e7aca159"
+      }
+    }
+  ],
+  "total": 23.33,
+  "createdAt": {
+    "$date": "2025-03-07T00:35:47.229Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-07T00:35:47.229Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ca3f7baf7ade01e7aca164"
+  },
+  "usuarioId": {
+    "$oid": "67c7ac1be5c853776d58c8a0"
+  },
+  "productos": [
+    {
+      "productoId": {
+        "$oid": "67ca34d891272b0b7b886655"
+      },
+      "cantidad": 1,
+      "precio": 23.33,
+      "_id": {
+        "$oid": "67ca3f7baf7ade01e7aca165"
+      }
+    }
+  ],
+  "total": 23.33,
+  "createdAt": {
+    "$date": "2025-03-07T00:36:11.975Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-07T00:36:11.975Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ca4241f07e25cebbcc7f68"
+  },
+  "usuarioId": {
+    "$oid": "67c7ac1be5c853776d58c8a0"
+  },
+  "productos": [
+    {
+      "productoId": {
+        "$oid": "67ca34d891272b0b7b886655"
+      },
+      "cantidad": 1,
+      "precio": 23.33,
+      "_id": {
+        "$oid": "67ca4241f07e25cebbcc7f69"
+      }
+    },
+    {
+      "productoId": {
+        "$oid": "67ca34d891272b0b7b886655"
+      },
+      "cantidad": 1,
+      "precio": 23.33,
+      "_id": {
+        "$oid": "67ca4241f07e25cebbcc7f6a"
+      }
+    }
+  ],
+  "total": 46.66,
+  "createdAt": {
+    "$date": "2025-03-07T00:48:01.268Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-07T00:48:01.268Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ca42b7df73c3d581f6273a"
+  },
+  "usuarioId": {
+    "$oid": "67c7ac1be5c853776d58c8a0"
+  },
+  "productos": [
+    {
+      "productoId": {
+        "$oid": "67ca34d891272b0b7b886655"
+      },
+      "cantidad": 1,
+      "precio": 23.33,
+      "_id": {
+        "$oid": "67ca42b7df73c3d581f6273b"
+      }
+    }
+  ],
+  "total": 23.33,
+  "createdAt": {
+    "$date": "2025-03-07T00:49:59.047Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-07T00:49:59.047Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ca43aaae9a8fe01ee4c117"
+  },
+  "usuarioId": {
+    "$oid": "67c7ac1be5c853776d58c8a0"
+  },
+  "productos": [
+    {
+      "productoId": {
+        "$oid": "67ca34d891272b0b7b886655"
+      },
+      "cantidad": 1,
+      "precio": 23.33,
+      "_id": {
+        "$oid": "67ca43aaae9a8fe01ee4c118"
+      }
+    }
+  ],
+  "total": 23.33,
+  "createdAt": {
+    "$date": "2025-03-07T00:54:02.833Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-07T00:54:02.833Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ca443bc793946181d5b3b5"
+  },
+  "usuarioId": {
+    "$oid": "67c7ac1be5c853776d58c8a0"
+  },
+  "productos": [
+    {
+      "productoId": {
+        "$oid": "67ca34d891272b0b7b886655"
+      },
+      "cantidad": 1,
+      "precio": 23.33,
+      "_id": {
+        "$oid": "67ca443bc793946181d5b3b6"
+      }
+    }
+  ],
+  "total": 23.33,
+  "createdAt": {
+    "$date": "2025-03-07T00:56:27.599Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-07T00:56:27.599Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ca45745218eabb9554f1b8"
+  },
+  "usuarioId": {
+    "$oid": "67c7ac1be5c853776d58c8a0"
+  },
+  "productos": [
+    {
+      "productoId": {
+        "$oid": "67ca34d891272b0b7b886655"
+      },
+      "cantidad": 1,
+      "precio": 23.33,
+      "_id": {
+        "$oid": "67ca45745218eabb9554f1b9"
+      }
+    }
+  ],
+  "total": 23.33,
+  "createdAt": {
+    "$date": "2025-03-07T01:01:40.025Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-07T01:01:40.025Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ca4597833bf382a18a3e99"
+  },
+  "usuarioId": {
+    "$oid": "67c7ac1be5c853776d58c8a0"
+  },
+  "productos": [
+    {
+      "productoId": {
+        "$oid": "67ca34d891272b0b7b886655"
+      },
+      "cantidad": 1,
+      "precio": 23.33,
+      "_id": {
+        "$oid": "67ca4597833bf382a18a3e9a"
+      }
+    }
+  ],
+  "total": 23.33,
+  "createdAt": {
+    "$date": "2025-03-07T01:02:15.470Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-07T01:02:15.470Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ca4774d83280b5a8c9fbe6"
+  },
+  "usuarioId": {
+    "$oid": "67c7ac1be5c853776d58c8a0"
+  },
+  "productos": [
+    {
+      "productoId": {
+        "$oid": "67ca34d891272b0b7b886655"
+      },
+      "nombre": "Tornillo",
+      "cantidad": 1,
+      "precio": 23.33,
+      "_id": {
+        "$oid": "67ca4774d83280b5a8c9fbe7"
+      }
+    }
+  ],
+  "total": 23.33,
+  "createdAt": {
+    "$date": "2025-03-07T01:10:12.090Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-07T01:10:12.090Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ca4a3ed83280b5a8c9fc06"
+  },
+  "usuarioId": {
+    "$oid": "67c7ac1be5c853776d58c8a0"
+  },
+  "productos": [
+    {
+      "productoId": {
+        "$oid": "67c7aa67400e79c993959c5e"
+      },
+      "nombre": "Pulidora",
+      "cantidad": 5,
+      "precio": 120,
+      "_id": {
+        "$oid": "67ca4a3ed83280b5a8c9fc07"
+      }
+    },
+    {
+      "productoId": {
+        "$oid": "67c7ac1be5c853776d58c8a0"
+      },
+      "nombre": "Taladro",
+      "cantidad": 2,
+      "precio": 100,
+      "_id": {
+        "$oid": "67ca4a3ed83280b5a8c9fc08"
+      }
+    },
+    {
+      "productoId": {
+        "$oid": "67ca34d891272b0b7b886655"
+      },
+      "nombre": "Tornillo",
+      "cantidad": 3,
+      "precio": 23.33,
+      "_id": {
+        "$oid": "67ca4a3ed83280b5a8c9fc09"
+      }
+    }
+  ],
+  "total": 869.99,
+  "createdAt": {
+    "$date": "2025-03-07T01:22:06.818Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-07T01:22:06.818Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ca559dfbbc31d7b6d195ce"
+  },
+  "usuarioId": {
+    "$oid": "67c7ac1be5c853776d58c8a0"
+  },
+  "productos": [
+    {
+      "productoId": {
+        "$oid": "67ca34d891272b0b7b886655"
+      },
+      "nombre": "Tornillo",
+      "cantidad": 3,
+      "precio": 23.33,
+      "_id": {
+        "$oid": "67ca559dfbbc31d7b6d195cf"
+      }
+    },
+    {
+      "productoId": {
+        "$oid": "67ca34d891272b0b7b886655"
+      },
+      "nombre": "Tornillo",
+      "cantidad": 3,
+      "precio": 23.33,
+      "_id": {
+        "$oid": "67ca559dfbbc31d7b6d195d0"
+      }
+    },
+    {
+      "productoId": {
+        "$oid": "67ca34d891272b0b7b886655"
+      },
+      "nombre": "Tornillo",
+      "cantidad": 3,
+      "precio": 23.33,
+      "_id": {
+        "$oid": "67ca559dfbbc31d7b6d195d1"
+      }
+    },
+    {
+      "productoId": {
+        "$oid": "67ca34d891272b0b7b886655"
+      },
+      "nombre": "Tornillo",
+      "cantidad": 3,
+      "precio": 23.33,
+      "_id": {
+        "$oid": "67ca559dfbbc31d7b6d195d2"
+      }
+    },
+    {
+      "productoId": {
+        "$oid": "67ca34d891272b0b7b886655"
+      },
+      "nombre": "Tornillo",
+      "cantidad": 3,
+      "precio": 23.33,
+      "_id": {
+        "$oid": "67ca559dfbbc31d7b6d195d3"
+      }
+    },
+    {
+      "productoId": {
+        "$oid": "67ca34d891272b0b7b886655"
+      },
+      "nombre": "Tornillo",
+      "cantidad": 3,
+      "precio": 23.33,
+      "_id": {
+        "$oid": "67ca559dfbbc31d7b6d195d4"
+      }
+    },
+    {
+      "productoId": {
+        "$oid": "67ca34d891272b0b7b886655"
+      },
+      "nombre": "Tornillo",
+      "cantidad": 3,
+      "precio": 23.33,
+      "_id": {
+        "$oid": "67ca559dfbbc31d7b6d195d5"
+      }
+    },
+    {
+      "productoId": {
+        "$oid": "67ca34d891272b0b7b886655"
+      },
+      "nombre": "Tornillo",
+      "cantidad": 3,
+      "precio": 23.33,
+      "_id": {
+        "$oid": "67ca559dfbbc31d7b6d195d6"
+      }
+    },
+    {
+      "productoId": {
+        "$oid": "67ca34d891272b0b7b886655"
+      },
+      "nombre": "Tornillo",
+      "cantidad": 3,
+      "precio": 23.33,
+      "_id": {
+        "$oid": "67ca559dfbbc31d7b6d195d7"
+      }
+    },
+    {
+      "productoId": {
+        "$oid": "67ca34d891272b0b7b886655"
+      },
+      "nombre": "Tornillo",
+      "cantidad": 3,
+      "precio": 23.33,
+      "_id": {
+        "$oid": "67ca559dfbbc31d7b6d195d8"
+      }
+    },
+    {
+      "productoId": {
+        "$oid": "67ca34d891272b0b7b886655"
+      },
+      "nombre": "Tornillo",
+      "cantidad": 3,
+      "precio": 23.33,
+      "_id": {
+        "$oid": "67ca559dfbbc31d7b6d195d9"
+      }
+    },
+    {
+      "productoId": {
+        "$oid": "67ca34d891272b0b7b886655"
+      },
+      "nombre": "Tornillo",
+      "cantidad": 3,
+      "precio": 23.33,
+      "_id": {
+        "$oid": "67ca559dfbbc31d7b6d195da"
+      }
+    }
+  ],
+  "total": 839.88,
+  "createdAt": {
+    "$date": "2025-03-07T02:10:37.638Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-07T02:10:37.638Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ca578d2439a0e6dac20ba2"
+  },
+  "usuarioId": {
+    "$oid": "67c7ac1be5c853776d58c8a0"
+  },
+  "productos": [
+    {
+      "productoId": {
+        "$oid": "67ca34d891272b0b7b886655"
+      },
+      "nombre": "Tornillo",
+      "cantidad": 3,
+      "precio": 23.33,
+      "_id": {
+        "$oid": "67ca578d2439a0e6dac20ba3"
+      }
+    }
+  ],
+  "total": 69.99,
+  "createdAt": {
+    "$date": "2025-03-07T02:18:53.047Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-07T02:18:53.047Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ca584b2439a0e6dac20bbe"
+  },
+  "usuarioId": {
+    "$oid": "67c7ac1be5c853776d58c8a0"
+  },
+  "productos": [
+    {
+      "productoId": {
+        "$oid": "67c7aa67400e79c993959c5e"
+      },
+      "nombre": "Pulidora",
+      "cantidad": 3,
+      "precio": 120,
+      "_id": {
+        "$oid": "67ca584b2439a0e6dac20bbf"
+      }
+    },
+    {
+      "productoId": {
+        "$oid": "67c7ac1be5c853776d58c8a0"
+      },
+      "nombre": "Taladro",
+      "cantidad": 1,
+      "precio": 100,
+      "_id": {
+        "$oid": "67ca584b2439a0e6dac20bc0"
+      }
+    },
+    {
+      "productoId": {
+        "$oid": "67ca34d891272b0b7b886655"
+      },
+      "nombre": "Tornillo",
+      "cantidad": 1,
+      "precio": 23.33,
+      "_id": {
+        "$oid": "67ca584b2439a0e6dac20bc1"
+      }
+    }
+  ],
+  "total": 483.33,
+  "createdAt": {
+    "$date": "2025-03-07T02:22:03.779Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-07T02:22:03.779Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ca72c8cc3d8973707e471f"
+  },
+  "usuarioId": {
+    "$oid": "67c7ac1be5c853776d58c8a0"
+  },
+  "productos": [
+    {
+      "productoId": {
+        "$oid": "67c7aa67400e79c993959c5e"
+      },
+      "nombre": "Pulidora",
+      "cantidad": 1,
+      "precio": 120,
+      "_id": {
+        "$oid": "67ca72c8cc3d8973707e4720"
+      }
+    }
+  ],
+  "total": 120,
+  "createdAt": {
+    "$date": "2025-03-07T04:15:04.776Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-07T04:15:04.776Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ca7532aa95c67f9e018649"
+  },
+  "usuarioId": {
+    "$oid": "67c7ac1be5c853776d58c8a0"
+  },
+  "productos": [
+    {
+      "productoId": {
+        "$oid": "67ca34d891272b0b7b886655"
+      },
+      "nombre": "Tornillo",
+      "cantidad": 1,
+      "precio": 23.33,
+      "_id": {
+        "$oid": "67ca7532aa95c67f9e01864a"
+      }
+    },
+    {
+      "productoId": {
+        "$oid": "67c7aa67400e79c993959c5e"
+      },
+      "nombre": "Pulidora",
+      "cantidad": 1,
+      "precio": 120,
+      "_id": {
+        "$oid": "67ca7532aa95c67f9e01864b"
+      }
+    },
+    {
+      "productoId": {
+        "$oid": "67c7ac1be5c853776d58c8a0"
+      },
+      "nombre": "Taladro",
+      "cantidad": 1,
+      "precio": 100,
+      "_id": {
+        "$oid": "67ca7532aa95c67f9e01864c"
+      }
+    }
+  ],
+  "total": 243.32999999999998,
+  "createdAt": {
+    "$date": "2025-03-07T04:25:22.419Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-07T04:25:22.419Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ca75d7aa95c67f9e01865e"
+  },
+  "usuarioId": {
+    "$oid": "67c7ac1be5c853776d58c8a0"
+  },
+  "productos": [
+    {
+      "productoId": {
+        "$oid": "67c7aa67400e79c993959c5e"
+      },
+      "nombre": "Pulidora",
+      "cantidad": 1,
+      "precio": 120,
+      "_id": {
+        "$oid": "67ca75d7aa95c67f9e01865f"
+      }
+    }
+  ],
+  "total": 120,
+  "createdAt": {
+    "$date": "2025-03-07T04:28:07.996Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-07T04:28:07.996Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ca7f787662b73c5f1e98e8"
+  },
+  "usuarioId": {
+    "$oid": "67c5eaf0b1e7131981a34c9d"
+  },
+  "productos": [
+    {
+      "productoId": {
+        "$oid": "67c7aa67400e79c993959c5e"
+      },
+      "nombre": "Pulidora",
+      "cantidad": 1,
+      "precio": 120,
+      "_id": {
+        "$oid": "67ca7f787662b73c5f1e98e9"
+      }
+    },
+    {
+      "productoId": {
+        "$oid": "67c7aa67400e79c993959c5e"
+      },
+      "nombre": "Pulidora",
+      "cantidad": 1,
+      "precio": 120,
+      "_id": {
+        "$oid": "67ca7f787662b73c5f1e98ea"
+      }
+    }
+  ],
+  "total": 240,
+  "createdAt": {
+    "$date": "2025-03-07T05:09:12.662Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-07T05:09:12.662Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ca81c6bf2aede8acbd8cbe"
+  },
+  "usuarioId": {
+    "$oid": "67c5eaf0b1e7131981a34c9d"
+  },
+  "productos": [
+    {
+      "productoId": {
+        "$oid": "67c7aa67400e79c993959c5e"
+      },
+      "nombre": "Pulidora",
+      "cantidad": 1,
+      "precio": 120,
+      "_id": {
+        "$oid": "67ca81c6bf2aede8acbd8cbf"
+      }
+    },
+    {
+      "productoId": {
+        "$oid": "67c7aa67400e79c993959c5e"
+      },
+      "nombre": "Pulidora",
+      "cantidad": 1,
+      "precio": 120,
+      "_id": {
+        "$oid": "67ca81c6bf2aede8acbd8cc0"
+      }
+    },
+    {
+      "productoId": {
+        "$oid": "67c7aa67400e79c993959c5e"
+      },
+      "nombre": "Pulidora",
+      "cantidad": 1,
+      "precio": 120,
+      "_id": {
+        "$oid": "67ca81c6bf2aede8acbd8cc1"
+      }
+    },
+    {
+      "productoId": {
+        "$oid": "67c7aa67400e79c993959c5e"
+      },
+      "nombre": "Pulidora",
+      "cantidad": 1,
+      "precio": 120,
+      "_id": {
+        "$oid": "67ca81c6bf2aede8acbd8cc2"
+      }
+    }
+  ],
+  "total": 480,
+  "createdAt": {
+    "$date": "2025-03-07T05:19:02.092Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-07T05:19:02.092Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67cb1ff3f58204b1f9f10a0f"
+  },
+  "usuarioId": {
+    "$oid": "67c5eaf0b1e7131981a34c9d"
+  },
+  "productos": [
+    {
+      "productoId": {
+        "$oid": "67c7aa67400e79c993959c5e"
+      },
+      "nombre": "Pulidora",
+      "cantidad": 1,
+      "precio": 120,
+      "_id": {
+        "$oid": "67cb1ff3f58204b1f9f10a10"
+      }
+    }
+  ],
+  "total": 120,
+  "createdAt": {
+    "$date": "2025-03-07T16:33:55.790Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-07T16:33:55.790Z"
+  }
+}]

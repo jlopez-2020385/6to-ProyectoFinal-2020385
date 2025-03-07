@@ -1,0 +1,78 @@
+[{
+  "_id": {
+    "$oid": "67c678480a2a16e3164ed165"
+  },
+  "name": "Estudios",
+  "status": false,
+  "createdAt": {
+    "$date": "2025-03-04T03:49:28.597Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T05:54:42.948Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c7a71f070ac7d181b7573c"
+  },
+  "name": "Tecnologia",
+  "status": true,
+  "createdAt": {
+    "$date": "2025-03-05T01:21:35.757Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T01:26:10.739Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c7c3ccac608eec5cec8163"
+  },
+  "name": "Hogar",
+  "status": true,
+  "createdAt": {
+    "$date": "2025-03-05T03:23:56.236Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:23:56.236Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c7c3d6ac608eec5cec8167"
+  },
+  "name": "Electrico",
+  "status": true,
+  "createdAt": {
+    "$date": "2025-03-05T03:24:06.441Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:24:06.441Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c7c3f4ac608eec5cec816b"
+  },
+  "name": "Domestico",
+  "status": false,
+  "createdAt": {
+    "$date": "2025-03-05T03:24:36.568Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T05:54:05.219Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c7e3e86f7807e9a88f49c8"
+  },
+  "name": "Otros",
+  "status": true,
+  "createdAt": {
+    "$date": "2025-03-05T05:40:56.963Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T05:40:56.963Z"
+  }
+}]

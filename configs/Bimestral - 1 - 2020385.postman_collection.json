@@ -1,0 +1,920 @@
+{
+	"info": {
+		"_postman_id": "9069de85-b77c-487b-a98f-ad3ef496141d",
+		"name": "Bimestral - 1 - 2020385",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "37660302"
+	},
+	"item": [
+		{
+			"name": "Administracion de Usuarios",
+			"item": [
+				{
+					"name": "Login Cliente",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{ \r\n   \"email\": \"andres77@gmail.com\",\r\n  \"password\": \"Emanue4341#\"\r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3001/empresaBimestral/v1/auth/login",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3001",
+							"path": [
+								"empresaBimestral",
+								"v1",
+								"auth",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Agregar Cliente",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "Andres",
+									"type": "text"
+								},
+								{
+									"key": "surname",
+									"value": "ruiz77",
+									"type": "text"
+								},
+								{
+									"key": "username",
+									"value": "andres_rz",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "andres77@gmail.com",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "Emanue4341#",
+									"type": "text"
+								},
+								{
+									"key": "profilePicture",
+									"type": "file",
+									"src": "/C:/Users/ema22/OneDrive/Imágenes/Álbum de cámara/20210321_081400.jpg"
+								},
+								{
+									"key": "phone",
+									"value": "12345678",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3001/empresaBimestral/v1/auth/register",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3001",
+							"path": [
+								"empresaBimestral",
+								"v1",
+								"auth",
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Login Admin",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{ \r\n   \"email\": \"admin@gmail.com\",\r\n  \"password\": \"Abc123**\"\r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3001/empresaBimestral/v1/auth/login",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3001",
+							"path": [
+								"empresaBimestral",
+								"v1",
+								"auth",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Editar User",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2M1ZGE4OTBmNTVmYjI4ODc4YzBkMjMiLCJpYXQiOjE3NDEwMjE3MTUsImV4cCI6MTc0MTAyNTMxNX0.SHBeejpdMIfVGoNPKN-UIp5bWO2QtBK1ZOZ9Iknz0qo",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Emauel\",\r\n    \"surname\": \"ruiz77\",\r\n    \"username\": \"andres_rz\",\r\n    \"email\": \"andres77@gmail.com\",\r\n    \"profilePicture\": \"20210321_081400-1741019785436.jpg\",\r\n    \"phone\": \"46735976\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3001/empresaBimestral/v1/user/updateUser/67c5da890f55fb28878c0d23",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3001",
+							"path": [
+								"empresaBimestral",
+								"v1",
+								"user",
+								"updateUser",
+								"67c5da890f55fb28878c0d23"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Cambiar a Administrador",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2M1ZDczYmViYWUwZGQ3MGJhNzUwYzUiLCJpYXQiOjE3NDEwMjIwMjcsImV4cCI6MTc0MTAyNTYyN30.IfqXULwYn5d16-31T6M2qQg-npPjCM2JbeabYNcjnic",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"role\": \"ADMIN_ROLE\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3001/empresaBimestral/v1/user/updateRole/67c5da890f55fb28878c0d23",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3001",
+							"path": [
+								"empresaBimestral",
+								"v1",
+								"user",
+								"updateRole",
+								"67c5da890f55fb28878c0d23"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Agregar Cliente",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"name\": \"Antonio\",\r\n  \"surname\": \"Méndez\",\r\n  \"username\": \"antoniomendez\",\r\n  \"email\": \"antoniomendez@example.com\",\r\n  \"password\": \"Antonio123**\",\r\n  \"profilePicture\": \"antonio.jpg\",\r\n  \"phone\": \"78901225\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3001/empresaBimestral/v1/auth/register",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3001",
+							"path": [
+								"empresaBimestral",
+								"v1",
+								"auth",
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Eliminar cuenta",
+					"request": {
+						"method": "DELETE",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Categoria",
+			"item": [
+				{
+					"name": "Agregar Categoria",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2M1ZDczYmViYWUwZGQ3MGJhNzUwYzUiLCJpYXQiOjE3NDExMzc2NjcsImV4cCI6MTc0MTE0MTI2N30.o16DXikV7ZJ_fQHAF2lJespP7EowNsCINUwnSfVrciw",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Hogar\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3001/empresaBimestral/v1/category",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3001",
+							"path": [
+								"empresaBimestral",
+								"v1",
+								"category"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Editar Categoria",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2M1ZDczYmViYWUwZGQ3MGJhNzUwYzUiLCJpYXQiOjE3NDExMzc2NjcsImV4cCI6MTc0MTE0MTI2N30.o16DXikV7ZJ_fQHAF2lJespP7EowNsCINUwnSfVrciw",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Tecnologia en Sistemas\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3001/empresaBimestral/v1/category/categoryUpdate/67c7a71f070ac7d181b7573c",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3001",
+							"path": [
+								"empresaBimestral",
+								"v1",
+								"category",
+								"categoryUpdate",
+								"67c7a71f070ac7d181b7573c"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Eliminar Categoria",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2M1ZDczYmViYWUwZGQ3MGJhNzUwYzUiLCJpYXQiOjE3NDExNTE0MjMsImV4cCI6MTc0MTE1NTAyM30.sK-pYhe4pqMd-4MBQwMJ9vMN3YwwjlEhcPzSh3Rk4og",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3001/empresaBimestral/v1/category/categoryDelete/67c678480a2a16e3164ed165",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3001",
+							"path": [
+								"empresaBimestral",
+								"v1",
+								"category",
+								"categoryDelete",
+								"67c678480a2a16e3164ed165"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Productos",
+			"item": [
+				{
+					"name": "Agregar Productos",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2M1ZDczYmViYWUwZGQ3MGJhNzUwYzUiLCJpYXQiOjE3NDExMzc2NjcsImV4cCI6MTc0MTE0MTI2N30.o16DXikV7ZJ_fQHAF2lJespP7EowNsCINUwnSfVrciw",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nombre\": \"Producto 2\",\r\n    \"descripcion\": \"Descripción del producto\",\r\n    \"precio\": 100,\r\n    \"categoria\": \"67c678480a2a16e3164ed165\",  \r\n    \"profilePicture\": \"url_de_imagen\",\r\n    \"existencias\": 50\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3001/empresaBimestral/v1/product",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3001",
+							"path": [
+								"empresaBimestral",
+								"v1",
+								"product"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Productos individuales por nombre",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2M1ZDczYmViYWUwZGQ3MGJhNzUwYzUiLCJpYXQiOjE3NDExNDI1NzMsImV4cCI6MTc0MTE0NjE3M30.dhvRTYs2owGmID-hjt3yU9WArIck1X6ZNs0wEAl_0eA",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3001/empresaBimestral/v1/product/productproducto/Producto 2",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3001",
+							"path": [
+								"empresaBimestral",
+								"v1",
+								"product",
+								"productproducto",
+								"Producto 2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Catalogo Completo",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2M1ZWJjOWIxZTcxMzE5ODFhMzRjZTEiLCJpYXQiOjE3NDExNDU1MzMsImV4cCI6MTc0MTE0OTEzM30.PbDHSdke650qHlcN9wqijVH1CJP6eDqdv07ZHVfRrIE",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:3001/empresaBimestral/v1/product/listProduct",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3001",
+							"path": [
+								"empresaBimestral",
+								"v1",
+								"product",
+								"listProduct"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Editar Producto",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2M1ZDczYmViYWUwZGQ3MGJhNzUwYzUiLCJpYXQiOjE3NDExNDUwMjYsImV4cCI6MTc0MTE0ODYyNn0.tdGQupKYfoXYzwEuI3W4Hotb1EcQUCTQqzmZ9Jgcgmo",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nombre\": \"Labadora\",\r\n    \"descripcion\": \"Huawei pxt-ultra\",\r\n    \"precio\": 120,\r\n    \"categoria\": \"67c7c3f4ac608eec5cec816b\",\r\n    \"profilePicture\": \"url_actualizada\",\r\n    \"existencias\": 60\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3001/empresaBimestral/v1/product/updateProduct/67c7aa67400e79c993959c5e",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3001",
+							"path": [
+								"empresaBimestral",
+								"v1",
+								"product",
+								"updateProduct",
+								"67c7aa67400e79c993959c5e"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Productos Disponibles",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:3001/empresaBimestral/v1/product/listarPorExistencias",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3001",
+							"path": [
+								"empresaBimestral",
+								"v1",
+								"product",
+								"listarPorExistencias"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Productos mas vendidos",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2M1ZDczYmViYWUwZGQ3MGJhNzUwYzUiLCJpYXQiOjE3NDEyMzczMTksImV4cCI6MTc0MTI0MDkxOX0.nR4BPiWV-CWCYHoZr6dE5VtkJ7TqTShs1E2YOP0kZzo",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3001/empresaBimestral/v1/product/ventasProduct",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3001",
+							"path": [
+								"empresaBimestral",
+								"v1",
+								"product",
+								"ventasProduct"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Eliminar producto",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2M1ZDczYmViYWUwZGQ3MGJhNzUwYzUiLCJpYXQiOjE3NDExNTE0MjMsImV4cCI6MTc0MTE1NTAyM30.sK-pYhe4pqMd-4MBQwMJ9vMN3YwwjlEhcPzSh3Rk4og",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3001/empresaBimestral/v1/product/deleteProduct/67c7c45dac608eec5cec8171",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3001",
+							"path": [
+								"empresaBimestral",
+								"v1",
+								"product",
+								"deleteProduct",
+								"67c7c45dac608eec5cec8171"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Editar solo un dato",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2M1ZDczYmViYWUwZGQ3MGJhNzUwYzUiLCJpYXQiOjE3NDEyMTg4MTEsImV4cCI6MTc0MTIyMjQxMX0.vbtyy7mWipD84ggmbsa7KvUC550BsmBd09lSEmTEJxQ",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nombre\": \"Producto 2\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3001/empresaBimestral/v1/product/updateByProduct/67c7aa67400e79c993959c5e",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3001",
+							"path": [
+								"empresaBimestral",
+								"v1",
+								"product",
+								"updateByProduct",
+								"67c7aa67400e79c993959c5e"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Carrito",
+			"item": [
+				{
+					"name": "Agregar al carrito",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"usuarioId\": \"67c7ac1be5c853776d58c8a0\",\r\n    \"productoId\": \"67c7aa67400e79c993959c5e\",\r\n    \"cantidad\": 1\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3001/empresaBimestral/v1/cart/agregar",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3001",
+							"path": [
+								"empresaBimestral",
+								"v1",
+								"cart",
+								"agregar"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Eliminar producto del carrito",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"usuarioId\": \"67c7ac1be5c853776d58c8a0\",\r\n    \"productoId\": \"67ca58022439a0e6dac20ba8\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3001/empresaBimestral/v1/cart/agregar",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3001",
+							"path": [
+								"empresaBimestral",
+								"v1",
+								"cart",
+								"agregar"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Carrito Ver Productos",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:3001/empresaBimestral/v1/cart/listar/67c7ac1be5c853776d58c8a0",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3001",
+							"path": [
+								"empresaBimestral",
+								"v1",
+								"cart",
+								"listar",
+								"67c7ac1be5c853776d58c8a0"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Compra",
+			"item": [
+				{
+					"name": "Compra del producto",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"usuarioId\": \"67c7ac1be5c853776d58c8a0\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3001/empresaBimestral/v1/shopping/comprar",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3001",
+							"path": [
+								"empresaBimestral",
+								"v1",
+								"shopping",
+								"comprar"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Historial de Compras",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:3001/empresaBimestral/v1/shopping/historial/67c7ac1be5c853776d58c8a0",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3001",
+							"path": [
+								"empresaBimestral",
+								"v1",
+								"shopping",
+								"historial",
+								"67c7ac1be5c853776d58c8a0"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

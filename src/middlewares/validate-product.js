@@ -32,7 +32,6 @@ export const productCategoryValidator = [
 
 export const listProductValidator = [
     validateJWT,
-    hasRoles("ADMIN_ROLE"),
     validarCampos,
     handleErrors
 ];
@@ -61,7 +60,6 @@ export const inventoryProductValidator = [
 
 export const ventasProductValidator = [
     validateJWT,
-    hasRoles("ADMIN_ROLE"),
     validarCampos,
     handleErrors
 ];
